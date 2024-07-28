@@ -1,0 +1,13 @@
+train: ../train_det/images
+val: ../test_det/images
+test: ../valid_det/images
+
+nc: 1
+names: ['text']
+
+roboflow:
+  workspace: textdetectionotherdata
+  project: text_detection_fulldata
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/textdetectionotherdata/text_detection_fulldata/dataset/8

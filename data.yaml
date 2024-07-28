@@ -1,0 +1,12 @@
+train: D:\NAM3_KY1\PYCHAMPROJECT\TrainModelOCR\pythonProject\train
+val: D:\NAM3_KY1\PYCHAMPROJECT\TrainModelOCR\pythonProject\valid
+
+nc: 1
+names: ['text']
+
+roboflow:
+  workspace: textdetectionotherdata
+  project: text_detection_fulldata
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/textdetectionotherdata/text_detection_fulldata/dataset/5

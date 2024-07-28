@@ -1,0 +1,2 @@
+from ultralytics.utils.benchmarks import benchmark
+benchmark(model=r'D:\NAM3_KY1\PYCHAMPROJECT\TrainModelOCR\pythonProject\FULLDATA_V9.pt', data=r'D:\NAM3_KY1\PYCHAMPROJECT\TrainModelOCR\pythonProject\data_det.yaml', imgsz=640)

@@ -1,0 +1,12 @@
+train: D:\NAM3_KY1\PYCHAMPROJECT\TrainModelOCR\pythonProject\train_REC\images
+val: D:\NAM3_KY1\PYCHAMPROJECT\TrainModelOCR\pythonProject\valid_REC\images
+
+nc: 70
+names: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'Commas', 'D', 'Dvietnamese', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'cong', 'd', 'dot', 'dvietnamese', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'ngoacphai', 'ngoactrai', 'o', 'p', 'percent', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+roboflow:
+  workspace: textrecogonition
+  project: text_recogonition
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/textrecogonition/text_recogonition/dataset/3
